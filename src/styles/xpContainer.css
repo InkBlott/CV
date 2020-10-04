@@ -1,0 +1,13 @@
+.titleDiv{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.mainDiv{
+    max-width: 800px;
+}
+
+.centerXp{
+    justify-self: center;
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+.meter { 
+    height: 15px;  /* Can be anything */
+    width: 200px;
+	position: relative;
+	background: rgb(172, 155, 140);
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+
+.meter > span {
+    display: block;
+    height: 100%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgb(17, 17, 17);
+    position: relative;
+    overflow: hidden;
+  }
